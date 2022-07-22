@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 500px;
+}
+
+.container{
+    background-color:rgb(218, 228, 228);
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+}
+
+.header{
+    color: brown;
+    text-align: center;
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 2px solid orangered;
+    border-radius: 15px;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.form{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.form-group{
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    position: relative;    
+}
+
+.form-group label{
+    font-size: 15px;
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 1px;
+}
+
+.form-group input{
+    border: 1px solid black;
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 4px;
+    font-size: 15px;
+    text-align:center
+}
+
+.form-group i{
+    position: absolute;
+    right: 5px;
+    top: 35px;
+    visibility: hidden;
+}
+
+.form-group span{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-style: italic;
+    visibility: hidden;
+}
+
+.form-group.success input{
+    border-color: rgb(74, 4, 250);
+}
+
+.form-group.error input{
+    border-color: rgb(233, 11, 11);
+}
+
+.form-group.error span{
+    color: red;
+    visibility: visible;
+}
+
+.form-group.success i.fa-circle-check{
+    visibility: visible;
+    color: darkgreen;
+}
+
+.form-group.error i.fa-circle-xmark{
+    visibility: visible;
+    color: red;
+}
+
+.button{
+    background-color: lightcoral;
+    color: black;
+    width: 100%;
+    padding: 3px;
+    border: 1px solid lightcoral;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+}
